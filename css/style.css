@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eff4f7;
+}
+.header-wrapper, .header-top-wrapper, .wrapper, .footer-wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.header-top, .footer {
+    background-color: #054760;
+}
+.header__nav-item,
+.header__slider-item,
+.social__content-item,
+.pagination-item, 
+.footer__nav-item, 
+.footer__content-item {
+    display: inline-block;
+}
+.social__content-link img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
