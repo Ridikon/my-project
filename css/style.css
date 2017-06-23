@@ -61,7 +61,7 @@ h3 {
 .main,
 .pagination,
 .social,
-.main-form,
+.main__form,
 .footer-wrapper {
     max-width: 1170px;
     margin: 20px auto;
@@ -69,7 +69,7 @@ h3 {
 
 
 .header-top-wrapper {
-    margin: 0;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -377,9 +377,7 @@ h3 {
 /*--------MAIN-FORM BEGIN------------*/
 
 .main__form {
-    margin: 0 auto;
     text-align: center;
-    max-width: 1170px;
 }
 
 .main__form-list {
