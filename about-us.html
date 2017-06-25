@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Techno Blog</title>
+    <title>IT Blog</title>
 </head>
 
 <body>
@@ -46,75 +49,82 @@
                 <h1 class="main__h1-text">Про нас</h1>
             </div>
             <section class="main__content">
-                <div class="main__text">
+                <div class="main__text main__text-about-us">
                     <h2 class="main__text-h2">Ласкаво просимо!!!</h2>
-                    <p class="main__text-p">Шановні друзі! З радістю повідомляємо про запуск нашого сайту. Ціль його створення - подарувати вам можливість ознайомитися з світом новітніх технологій, не виходячи з дому, офісу чи затишного кафе. Сайт буде оперативно оновлюватися і ми сповіщатимемо вас про всі події із життя новітніх технологій. Дякуємо за візит!</p>
+                    <p class="main__text-p">Шановні друзі! З радістю повідомляємо про запуск нашого сайту. Ціль його створення - подарувати вам можливість ознайомитися з світом новітніх технологій, не виходячи з дому, офісу чи затишного кафе. Сайт буде оперативно оновлюватися
+                        і ми сповіщатимемо вас про всі події із життя новітніх технологій. Дякуємо за візит!</p>
                 </div>
             </section>
         </main>
         <aside class="sidebar">
-            <h2 class="sidebar__h2">Популярні новини</h2>
+            <h3 class="sidebar__h3">Популярні новини</h3>
             <div class="sidebar__popular">
-                <div class="sidebar__popular-content">
-                    <a href="#" class="sidebar__text-link"><img src="img/content-img-1.png" alt="Картинка стаття-1">Операційна система Android</a>
-                </div>
+                <a href="#" class="sidebar__popular-link"><img src="img/content-img-1.png" alt="Картинка стаття-1"><span class="sidebar__popular-text">Операційна система Android</span></a>
             </div>
             <div class="sidebar__popular">
-                <div class="sidebar__popular-content">
-                    <a href="#" class="sidebar__text-link"><img src="img/content-img-2.png" alt="Картинка стаття-3">Новинки Android</a>
-                </div>
+                <a href="#" class="sidebar__popular-link"><img src="img/content-img-2.png" alt="Картинка стаття-3"><span class="sidebar__popular-text">Новинки Android</span></a>
             </div>
             <div class="sidebar__popular">
-                <div class="sidebar__popular-content">
-                    <a href="#" class="sidebar__text-link"><img src="img/content-img-3.png" alt="Картинка стаття-3">Смартфони Android</a>
-                </div>
+                <a href="#" class="sidebar__popular-link"><img src="img/content-img-3.png" alt="Картинка стаття-3"><span class="sidebar__popular-text">Смартфони Android</span></a>
             </div>
-            <h2 class="sidebar__h2">Ми в соціальних мережах</h2>
+            <h3 class="sidebar__h3">Ми в соціальних мережах</h3>
             <div class="sidebar__social">
                 <ul class="sidebar__social-list">
                     <li class="sidebar__social-item">
-                        <a class="sidebar__social-link" href="#"><img src="img/social-img-1.svg" alt="You Tube"></a>
+                        <a class="sidebar__social-link" href="https://www.youtube.com/">
+                            <img src="img/social-img-1.svg" alt="You Tube">
+                        </a>
                     </li>
                     <li class="sidebar__social-item">
-                        <a class="sidebar__social-link" href="#"><img src="img/social-img-2.svg" alt="Instagram"></a>
+                        <a class="sidebar__social-link" href="https://www.instagram.com/">
+                            <img src="img/social-img-2.svg" alt="Instagram">
+                        </a>
                     </li>
                     <li class="sidebar__social-item">
-                        <a class="sidebar__social-link" href="#"><img src="img/social-img-3.svg" alt="Facebook"></a>
+                        <a class="sidebar__social-link" href="https://www.facebook.com/">
+                            <img src="img/social-img-3.svg" alt="Facebook">
+                        </a>
                     </li>
                 </ul>
             </div>
+            <div class="clear"></div>
         </aside>
-        <section class="social">
-            <div class="social__content">
-                <h2 class="social__content-h2">Ми в соціальних мережах</h2>
-                <ul class="social__content-list">
-                    <li class="social__content-item">
-                        <a class="social__content-link" href="#"><img src="img/social-img-1.svg" alt="You Tube">You Tube</a>
-                    </li>
-                    <li class="social__content-item">
-                        <a class="social__content-link" href="#"><img src="img/social-img-2.svg" alt="Instagram">Instagram</a>
-                    </li>
-                    <li class="social__content-item">
-                        <a class="social__content-link" href="#"><img src="img/social-img-3.svg" alt="Facebook">Facebook</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="main-form">
-            <div class="main-form__content">
-                <h2 class="main-form__content-h2">Залиште нам Ваші побажання у формі нище</h2>
-                <form action="https://formspree.io/ridikon666@gmail.com" method="POST">
-                    <label for="client-email">Ваш email</label>
-                    <input id="client-email" type="email" name="client-email" placeholder="example@mail.com">
-                    <label for="client-phone">Ваш номер телефон</label>
-                    <input id="client-phone" type="number" name="client-phone" placeholder="номер телефону">
-                    <label for="client-text">Залиште повідомлення</label>
-                    <textarea id="client-text" name="client-text" placeholder="Ваше повідомлення"></textarea>
-                    <input type="submit" name="client-submit" value="Відправити">
-                </form>
-            </div>
-        </section>
     </div>
+    <section class="social">
+        <div class="social__content">
+            <h2 class="social__content-h2">Ми в соціальних мережах</h2>
+            <ul class="social__content-list">
+                <li class="social__content-item">
+                    <a class="social__content-link" href="https://www.youtube.com/"><img src="img/social-img-1.svg" alt="You Tube">You Tube</a>
+                </li>
+                <li class="social__content-item">
+                    <a class="social__content-link" href="https://www.instagram.com/"><img src="img/social-img-2.svg" alt="Instagram">Instagram</a>
+                </li>
+                <li class="social__content-item">
+                    <a class="social__content-link" href="https://www.facebook.com/?ref=logo"><img src="img/social-img-3.svg" alt="Facebook">Facebook</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="main__form">
+        <h2 class="main__form-h2">Залиште нам Ваші побажання у формі нище</h2>
+        <form class="main__form-list" action="https://formspree.io/ridikon666@gmail.com" method="POST">
+            <div class="main__form-item">
+                <label for="client-email">Ваш email</label>
+                <input id="client-email" type="email" name="client-email" placeholder="example@mail.com">
+            </div>
+            <div class="main__form-item">
+                <label for="client-phone">Ваш номер телефону</label>
+                <input id="client-phone" type="number" name="client-phone" placeholder="номер телефону">
+            </div>
+            <div class="main__form-item">
+                <label for="client-text">Залиште повідомлення</label>
+                <textarea id="client-text" name="client-text" placeholder="Ваше повідомлення"></textarea>
+            </div>
+            <input type="submit" name="client-submit" value="Відправити">
+            <div class="clear"></div>
+        </form>
+    </section>
     <!--MAIN END-->
     <!--FOOTER BEGIN-->
     <footer class="footer">
@@ -130,13 +140,13 @@
                 </nav>
                 <ul class="footer__social-list">
                     <li class="footer__social-item">
-                        <a class="footer__social-link" href="#"></a>
+                        <a class="footer__social-link" href="https://www.youtube.com/"><img src="img/social-img-1.svg" alt="You Tube"></a>
                     </li>
                     <li class="footer__social-item">
-                        <a class="footer__social-link" href="#"></a>
+                        <a class="footer__social-link" href="https://www.instagram.com/"><img src="img/social-img-2.svg" alt="Instagram"></a>
                     </li>
                     <li class="footer__social-item">
-                        <a class="footer__social-link" href="#"></a>
+                        <a class="footer__social-link" href="https://www.facebook.com/"><img src="img/social-img-3.svg" alt="Facebook"></a>
                     </li>
                 </ul>
             </div>

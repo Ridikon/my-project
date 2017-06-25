@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Techno Blog</title>
+    <title>IT Blog</title>
 </head>
 
 <body>
@@ -125,17 +125,23 @@
             <div class="sidebar__popular">
                 <a href="#" class="sidebar__popular-link"><img src="img/content-img-3.png" alt="Картинка стаття-3"><span class="sidebar__popular-text">Смартфони Android</span></a>
             </div>
-            <h3 class=".">Ми в соціальних мережах</h3>
+            <h3 class="sidebar__h3">Ми в соціальних мережах</h3>
             <div class="sidebar__social">
                 <ul class="sidebar__social-list">
                     <li class="sidebar__social-item">
-                        <a class="sidebar__social-link" href="#"><img src="img/social-img-1.svg" alt="You Tube"></a>
+                        <a class="sidebar__social-link" href="https://www.youtube.com/">
+                            <img src="img/social-img-1.svg" alt="You Tube">
+                        </a>
                     </li>
                     <li class="sidebar__social-item">
-                        <a class="sidebar__social-link" href="#"><img src="img/social-img-2.svg" alt="Instagram"></a>
+                        <a class="sidebar__social-link" href="https://www.instagram.com/">
+                            <img src="img/social-img-2.svg" alt="Instagram">
+                        </a>
                     </li>
                     <li class="sidebar__social-item">
-                        <a class="sidebar__social-link" href="#"><img src="img/social-img-3.svg" alt="Facebook"></a>
+                        <a class="sidebar__social-link" href="https://www.facebook.com/">
+                            <img src="img/social-img-3.svg" alt="Facebook">
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -184,13 +190,20 @@
     <section class="main__form">
         <h2 class="main__form-h2">Залиште нам Ваші побажання у формі нище</h2>
         <form class="main__form-list" action="https://formspree.io/ridikon666@gmail.com" method="POST">
-            <label for="client-email">Ваш email</label>
-            <input class="main__form-item" id="client-email" type="email" name="client-email" placeholder="example@mail.com">
-            <label for="client-phone">Ваш номер телефону</label>
-            <input class="main__form-item" id="client-phone" type="number" name="client-phone" placeholder="номер телефону">
-            <label for="client-text">Залиште повідомлення</label>
-            <textarea class="main__form-item" id="client-text" name="client-text" placeholder="Ваше повідомлення"></textarea>
+            <div class="main__form-item">
+                <label for="client-email">Ваш email</label>
+                <input id="client-email" type="email" name="client-email" placeholder="example@mail.com">
+            </div>
+            <div class="main__form-item">
+                <label for="client-phone">Ваш номер телефону</label>
+                <input id="client-phone" type="number" name="client-phone" placeholder="номер телефону">
+            </div>
+            <div class="main__form-item">
+                <label for="client-text">Залиште повідомлення</label>
+                <textarea id="client-text" name="client-text" placeholder="Ваше повідомлення"></textarea>
+            </div>
             <input type="submit" name="client-submit" value="Відправити">
+            <div class="clear"></div>
         </form>
     </section>
     <!--MAIN END-->
@@ -208,13 +221,13 @@
                 </nav>
                 <ul class="footer__social-list">
                     <li class="footer__social-item">
-                        <a class="footer__social-link" href="#"><img src="img/social-img-1.svg" alt="You Tube"></a>
+                        <a class="footer__social-link" href="https://www.youtube.com/"><img src="img/social-img-1.svg" alt="You Tube"></a>
                     </li>
                     <li class="footer__social-item">
-                        <a class="footer__social-link" href="#"><img src="img/social-img-2.svg" alt="Instagram"></a>
+                        <a class="footer__social-link" href="https://www.instagram.com/"><img src="img/social-img-2.svg" alt="Instagram"></a>
                     </li>
                     <li class="footer__social-item">
-                        <a class="footer__social-link" href="#"><img src="img/social-img-3.svg" alt="Facebook"></a>
+                        <a class="footer__social-link" href="https://www.facebook.com/"><img src="img/social-img-3.svg" alt="Facebook"></a>
                     </li>
                 </ul>
             </div>

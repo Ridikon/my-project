@@ -3,9 +3,12 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css" />
-    <title>Techno Blog</title>
+    <title>IT Blog</title>
 </head>
 
 <body>
@@ -45,107 +48,113 @@
             <div class="main__h1">
                 <h1 class="main__h1-text">Галерея</h1>
             </div>
-            <div class="main__content">
-                <div class="galery-img">
+            <div class="main__galery-content">
+                <div class="main__galery-item">
                     <a href="img/slider-img-1.jpg"><img src="img/slider-img-1.jpg" alt="Картинка-1"></a>
                 </div>
-                <div class="galery-img">
+                <div class="main__galery-item">
                     <a href="img/slider-img-2.jpg"><img src="img/slider-img-2.jpg" alt="Картинка-2"></a>
                 </div>
-                <div class="galery-img">
+                <div class="main__galery-item">
                     <a href="img/slider-img-3.jpg"><img src="img/slider-img-3.jpg" alt="Картинка-3"></a>
                 </div>
-                <div class="galery-img">
+                <div class="main__galery-item">
                     <a href="img/slider-img-4.jpg"><img src="img/slider-img-4.jpg" alt="Картинка-4"></a>
                 </div>
             </div>
         </main>
         <aside class="sidebar">
-            <h2 class="sidebar__h2">Популярні новини</h2>
+            <h3 class="sidebar__h3">Популярні новини</h3>
             <div class="sidebar__popular">
-                <div class="sidebar__popular-content">
-                    <a href="#" class="sidebar__text-link"><img src="img/content-img-1.png" alt="Картинка стаття-1">Операційна система Android</a>
-                </div>
+                <a href="#" class="sidebar__popular-link"><img src="img/content-img-1.png" alt="Картинка стаття-1"><span class="sidebar__popular-text">Операційна система Android</span></a>
             </div>
             <div class="sidebar__popular">
-                <div class="sidebar__popular-content">
-                    <a href="#" class="sidebar__text-link"><img src="img/content-img-2.png" alt="Картинка стаття-3">Новинки Android</a>
-                </div>
+                <a href="#" class="sidebar__popular-link"><img src="img/content-img-2.png" alt="Картинка стаття-3"><span class="sidebar__popular-text">Новинки Android</span></a>
             </div>
             <div class="sidebar__popular">
-                <div class="sidebar__popular-content">
-                    <a href="#" class="sidebar__text-link"><img src="img/content-img-3.png" alt="Картинка стаття-3">Смартфони Android</a>
-                </div>
+                <a href="#" class="sidebar__popular-link"><img src="img/content-img-3.png" alt="Картинка стаття-3"><span class="sidebar__popular-text">Смартфони Android</span></a>
             </div>
-            <h2 class="sidebar__h2">Ми в соціальних мережах</h2>
+            <h3 class="sidebar__h3">Ми в соціальних мережах</h3>
             <div class="sidebar__social">
                 <ul class="sidebar__social-list">
                     <li class="sidebar__social-item">
-                        <a class="sidebar__social-link" href="#"><img src="img/social-img-1.svg" alt="You Tube"></a>
+                        <a class="sidebar__social-link" href="https://www.youtube.com/">
+                            <img src="img/social-img-1.svg" alt="You Tube">
+                        </a>
                     </li>
                     <li class="sidebar__social-item">
-                        <a class="sidebar__social-link" href="#"><img src="img/social-img-2.svg" alt="Instagram"></a>
+                        <a class="sidebar__social-link" href="https://www.instagram.com/">
+                            <img src="img/social-img-2.svg" alt="Instagram">
+                        </a>
                     </li>
                     <li class="sidebar__social-item">
-                        <a class="sidebar__social-link" href="#"><img src="img/social-img-3.svg" alt="Facebook"></a>
+                        <a class="sidebar__social-link" href="https://www.facebook.com/">
+                            <img src="img/social-img-3.svg" alt="Facebook">
+                        </a>
                     </li>
                 </ul>
             </div>
+            <div class="clear"></div>
         </aside>
-        <nav class="pagination">
-            <ul class="pagination__list">
-                <li class="pagination__item"><a href="#">«</a></li>
-                <li class="pagination__item"><a href="#">1</a></li>
-                <li class="pagination__item"><a href="#">2</a></li>
-                <li class="pagination__item"><a href="#">3</a></li>
-                <li class="pagination__item"><a href="#">4</a></li>
-                <li class="pagination__item"><a href="#">5</a></li>
-                <li class="pagination__item"><a href="#">6</a></li>
-                <li class="pagination__item"><a href="#">7</a></li>
-                <li class="pagination__item"><a href="#">8</a></li>
-                <li class="pagination__item"><a href="#">9</a></li>
-                <li class="pagination__item"><a href="#">»</a></li>
-            </ul>
-            <div class="pagination__arrow">
-                <div class="pagination__arrow-left">
-                    <a href="#">Назад</a>
-                </div>
-                <div class="pagination__arrow-right">
-                    <a href="#">Вперед</a>
-                </div>
-            </div>
-        </nav>
-        <section class="social">
-            <div class="social__content">
-                <h2 class="social__content-h2">Ми в соціальних мережах</h2>
-                <ul class="social__content-list">
-                    <li class="social__content-item">
-                        <a class="social__content-link" href="#"><img src="img/social-img-1.svg" alt="You Tube">You Tube</a>
-                    </li>
-                    <li class="social__content-item">
-                        <a class="social__content-link" href="#"><img src="img/social-img-2.svg" alt="Instagram">Instagram</a>
-                    </li>
-                    <li class="social__content-item">
-                        <a class="social__content-link" href="#"><img src="img/social-img-3.svg" alt="Facebook">Facebook</a>
-                    </li>
-                </ul>
-            </div>
-        </section>
-        <section class="main-form">
-            <div class="main-form__content">
-                <h2 class="main-form__content-h2">Залиште нам Ваші побажання у формі нище</h2>
-                <form action="https://formspree.io/ridikon666@gmail.com" method="POST">
-                    <label for="client-email">Ваш email</label>
-                    <input id="client-email" type="email" name="client-email" placeholder="example@mail.com">
-                    <label for="client-phone">Ваш номер телефон</label>
-                    <input id="client-phone" type="number" name="client-phone" placeholder="номер телефону">
-                    <label for="client-text">Залиште повідомлення</label>
-                    <textarea id="client-text" name="client-text" placeholder="Ваше повідомлення"></textarea>
-                    <input type="submit" name="client-submit" value="Відправити">
-                </form>
-            </div>
-        </section>
     </div>
+    <nav class="pagination">
+        <ul class="pagination__list">
+            <li class="pagination__item"><a class="pagination__item-link" href="#">«</a></li>
+            <li class="pagination__item"><a class="pagination__item-link" href="#">1</a></li>
+            <li class="pagination__item"><a class="pagination__item-link" href="#">2</a></li>
+            <li class="pagination__item"><a class="pagination__item-link" href="#">3</a></li>
+            <li class="pagination__item"><a class="pagination__item-link" href="#">4</a></li>
+            <li class="pagination__item"><a class="pagination__item-link" href="#">5</a></li>
+            <li class="pagination__item"><a class="pagination__item-link" href="#">6</a></li>
+            <li class="pagination__item"><a class="pagination__item-link" href="#">7</a></li>
+            <li class="pagination__item"><a class="pagination__item-link" href="#">8</a></li>
+            <li class="pagination__item"><a class="pagination__item-link" href="#">9</a></li>
+            <li class="pagination__item"><a class="pagination__item-link" href="#">»</a></li>
+        </ul>
+        <div class="pagination__arrow">
+            <div class="pagination__arrow-left">
+                <a href="#">Назад</a>
+            </div>
+            <div class="pagination__arrow-right">
+                <a href="#">Вперед</a>
+            </div>
+        </div>
+    </nav>
+    <section class="social">
+        <div class="social__content">
+            <h2 class="social__content-h2">Ми в соціальних мережах</h2>
+            <ul class="social__content-list">
+                <li class="social__content-item">
+                    <a class="social__content-link" href="https://www.youtube.com/"><img src="img/social-img-1.svg" alt="You Tube">You Tube</a>
+                </li>
+                <li class="social__content-item">
+                    <a class="social__content-link" href="https://www.instagram.com/"><img src="img/social-img-2.svg" alt="Instagram">Instagram</a>
+                </li>
+                <li class="social__content-item">
+                    <a class="social__content-link" href="https://www.facebook.com/?ref=logo"><img src="img/social-img-3.svg" alt="Facebook">Facebook</a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="main__form">
+        <h2 class="main__form-h2">Залиште нам Ваші побажання у формі нище</h2>
+        <form class="main__form-list" action="https://formspree.io/ridikon666@gmail.com" method="POST">
+            <div class="main__form-item">
+                <label for="client-email">Ваш email</label>
+                <input id="client-email" type="email" name="client-email" placeholder="example@mail.com">
+            </div>
+            <div class="main__form-item">
+                <label for="client-phone">Ваш номер телефону</label>
+                <input id="client-phone" type="number" name="client-phone" placeholder="номер телефону">
+            </div>
+            <div class="main__form-item">
+                <label for="client-text">Залиште повідомлення</label>
+                <textarea id="client-text" name="client-text" placeholder="Ваше повідомлення"></textarea>
+            </div>
+            <input type="submit" name="client-submit" value="Відправити">
+            <div class="clear"></div>
+        </form>
+    </section>
     <!--MAIN END-->
     <!--FOOTER BEGIN-->
     <footer class="footer">
@@ -161,13 +170,13 @@
                 </nav>
                 <ul class="footer__social-list">
                     <li class="footer__social-item">
-                        <a class="footer__social-link" href="#"></a>
+                        <a class="footer__social-link" href="https://www.youtube.com/"><img src="img/social-img-1.svg" alt="You Tube"></a>
                     </li>
                     <li class="footer__social-item">
-                        <a class="footer__social-link" href="#"></a>
+                        <a class="footer__social-link" href="https://www.instagram.com/"><img src="img/social-img-2.svg" alt="Instagram"></a>
                     </li>
                     <li class="footer__social-item">
-                        <a class="footer__social-link" href="#"></a>
+                        <a class="footer__social-link" href="https://www.facebook.com/"><img src="img/social-img-3.svg" alt="Facebook"></a>
                     </li>
                 </ul>
             </div>
