@@ -19,6 +19,7 @@
 }
 
 .sidebar__popular {
+    width: 100%;
     margin: 10px 0;
     padding-bottom: 10px;
     border-bottom: 3px solid #32bea6;
