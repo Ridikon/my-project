@@ -1,13 +1,21 @@
 /*--------SIDEBAR BEGIN------------*/
 
 .sidebar {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
     text-align: center;
-    margin-top: 20px;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
-    max-width: 200px;
+    width: 20%;
 }
 
 .sidebar__popular {
@@ -21,8 +29,13 @@
 }
 
 .sidebar__popular-link {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     width: 100%;
     font-size: 10px;
@@ -46,18 +59,24 @@
 }
 
 .sidebar__social-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
     width: 180px;
 }
 
+
 /*.sidebar__social-item {*/
-    
+
+
 /*}*/
 
 .sidebar__social-link {
     display: block;
     width: 100%;
 }
+
 
 /*--------SIDEBAR END------------*/
