@@ -146,14 +146,13 @@
 /*--------PAGINATION BEGIN------------*/
 
 .pagination {
-    max-width: 500px;
+    max-width: 700px;
     margin: 0 auto;
 }
 
 .pagination__list,
 .pagination__arrow {
     margin: auto;
-    max-width: 600px;
     font-size: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -264,6 +263,7 @@
 
 .main__form-item textarea {
     height: 60px;
+    resize: none;
 }
 
 .main__form-item label {
