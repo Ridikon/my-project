@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="css/normalize.css" type="text/css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
@@ -26,7 +26,7 @@
                         <li class="header__nav-item"><a href="about-us.html">Про нас</a></li>
                     </ul>
                 </nav>
-                <form action="https://formspree.io/ridikon666@gmail.com" class="header__form" method="POST">
+                <form action="" class="header__form" method="POST">
                     <input type="text" class="header__search" placeholder="Пошук">
                 </form>
                 <nav class="header__authorized">
@@ -40,7 +40,7 @@
                 </nav>
             </div>
             <div class="header__mobile" id="header__mobile">
-                
+
             </div>
         </div>
         <div class="header-wrapper">
@@ -195,18 +195,19 @@
         <form class="main__form-list" action="https://formspree.io/ridikon666@gmail.com" method="POST">
             <div class="main__form-item">
                 <label for="client-email">Ваш email</label>
-                <input id="client-email" type="email" name="client-email" placeholder="example@mail.com">
+                <input id="client-email" type="email" name="client-email" placeholder="example@mail.com" required>
             </div>
             <div class="main__form-item">
                 <label for="client-phone">Ваш номер телефону</label>
-                <input id="client-phone" type="number" name="client-phone" placeholder="номер телефону">
+                <input id="client-phone" type="number" name="client-phone" placeholder="номер телефону" required>
             </div>
             <div class="main__form-item">
                 <label for="client-text">Залиште повідомлення</label>
                 <textarea id="client-text" name="client-text" placeholder="Ваше повідомлення"></textarea>
             </div>
-            <input type="submit" name="client-submit" value="Відправити">
-            <div class="clear"></div>
+            <div class="main__form-item main__form-item-col">
+                <input type="submit" name="client-submit" value="Відправити" class="main__form-submit">
+            </div>
         </form>
     </section>
     <!--MAIN END-->

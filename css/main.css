@@ -272,9 +272,13 @@
     margin-left: 10%;
 }
 
-.main__form-list>input {
-    float: right;
+.main__form-item-col {
+    flex-direction: column;
+}
+
+.main__form-item-col .main__form-submit {
     margin-right: 10%;
+    align-self: flex-end;
     color: #000;
     background-color: #32BEA6;
     text-transform: uppercase;
@@ -284,9 +288,10 @@
     padding: 10px;
     font-size: 10px;
     border: none;
+    width: 100px;
 }
 
-.main__form-list>input:hover {
+.main__form-submit:hover {
     color: #fff;
     -webkit-transition: 0.3s ease 0.2s;
     transition: 0.3s ease 0.2s;
