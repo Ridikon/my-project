@@ -40,34 +40,73 @@
                 </nav>
             </div>
             <div class="header__mobile" id="header__mobile">
-
+                <nav class="header__mobile-nav">
+                    <ul class="header__mobile-list">
+                        <li class="header__mobile-item"><a href="index.html">Головна</a></li>
+                        <li class="header__mobile-item"><a href="galery.html">Галерея</a></li>
+                        <li class="header__mobile-item"><a href="about-us.html">Про нас</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
         <div class="header-wrapper">
             <div class="header__slider">
                 <ul class="header__slider-list">
-                    <li class="header__slider-item">
-                        <a class="header__slider-link" href="img/slider-img-1.jpg"><img src="img/slider-img-1.jpg" alt="Картинка-1"></a>
+                    <li class="header__slider-item fade">
+                        <span class="slider-number">1/7</span>
+                        <a class="header__slider-link" href="img/slider-img-1.jpg"><img src="img/slider-img-1.jpg" alt="Pacman"></a>
+                        <span class="slider-text">Pacman</span>
                     </li>
-                    <li class="header__slider-item">
-                        <a class="header__slider-link" href="img/slider-img-2.jpg"><img src="img/slider-img-2.jpg" alt="Картинка-2"></a>
+                    <li class="header__slider-item fade">
+                        <span class="slider-number">2/7</span>
+                        <a class="header__slider-link" href="img/slider-img-2.jpg"><img src="img/slider-img-2.jpg" alt="Красивий фон на робочий стіл"></a>
+                        <span class="slider-text">Красивий фон на робочий стіл</span>
                     </li>
-                    <li class="header__slider-item">
-                        <a class="header__slider-link" href="img/slider-img-3.jpg"><img src="img/slider-img-3.jpg" alt="Картинка-3"></a>
+                    <li class="header__slider-item fade">
+                        <span class="slider-number">3/7</span>
+                        <a class="header__slider-link" href="img/slider-img-3.jpg"><img src="img/slider-img-3.jpg" alt="Андроїд"></a>
+                        <span class="slider-text">Андроїд</span>
                     </li>
-                    <li class="header__slider-item">
-                        <a class="header__slider-link" href="img/slider-img-4.jpg"><img src="img/slider-img-4.jpg" alt="Картинка-4"></a>
+                    <li class="header__slider-item fade">
+                        <span class="slider-number">4/7</span>
+                        <a class="header__slider-link" href="img/slider-img-4.jpg"><img src="img/slider-img-4.jpg" alt="Красивий фон на робочий стіл з Андроїдами"></a>
+                        <span class="slider-text">Красивий фон на робочий стіл з Андроїдами</span>
                     </li>
-                    <li class="header__slider-item">
-                        <a class="header__slider-link" href="img/slider-img-5.jpg"><img src="img/slider-img-5.jpg" alt="Картинка-5"></a>
+                    <li class="header__slider-item fade">
+                        <span class="slider-number">5/7</span>
+                        <a class="header__slider-link" href="img/slider-img-5.jpg"><img src="img/slider-img-5.jpg" alt="Гори"></a>
+                        <span class="slider-text">Гори</span>
                     </li>
-                    <li class="header__slider-item">
-                        <a class="header__slider-link" href="img/slider-img-6.jpg"><img src="img/slider-img-6.jpg" alt="Картинка-6"></a>
+                    <li class="header__slider-item fade">
+                        <span class="slider-number">6/7</span>
+                        <a class="header__slider-link" href="img/slider-img-6.jpg"><img src="img/slider-img-6.jpg" alt="Мапа"></a>
+                        <span class="slider-text">Мапа</span>
                     </li>
-                    <li class="header__slider-item">
-                        <a class="header__slider-link" href="img/slider-img-7.jpg"><img src="img/slider-img-7.jpg" alt="Картинка-7"></a>
+                    <li class="header__slider-item fade">
+                        <span class="slider-number">7/7</span>
+                        <a class="header__slider-link" href="img/slider-img-7.jpg"><img src="img/slider-img-7.jpg" alt="Красивий фон на робочий стіл з узорами"></a>
+                        <span class="slider-text">Красивий фон на робочий стіл з узорами</span>
                     </li>
                 </ul>
+                <button class="prev" onclick="plusSlides(-1)">&#10094</button>
+                <button class="next" onclick="plusSlides(1)">&#10095</button>
+                <br>
+                <div class="dots">
+                    <span class="dot" ></span>
+                    <span class="dot" ></span>
+                    <span class="dot" ></span>
+                    <span class="dot" ></span>
+                    <span class="dot" ></span>
+                    <span class="dot" ></span>
+                    <span class="dot" ></span>
+                    <!-- <span class="dot" onclick="currentSlides(1)"></span>
+                    <span class="dot" onclick="currentSlides(2)"></span>
+                    <span class="dot" onclick="currentSlides(3)"></span>
+                    <span class="dot" onclick="currentSlides(4)"></span>
+                    <span class="dot" onclick="currentSlides(5)"></span>
+                    <span class="dot" onclick="currentSlides(6)"></span>
+                    <span class="dot" onclick="currentSlides(7)"></span> -->
+                </div>
             </div>
         </div>
     </header>
@@ -238,6 +277,12 @@
         </div>
     </footer>
     <!--FOOTER END-->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/mobile-menu.js"></script>
 </body>
 
 </html>
